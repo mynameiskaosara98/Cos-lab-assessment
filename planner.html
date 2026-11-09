@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal cybersecurity student portfolio of Akiyode Kaosara Yetunde.">
+  <title>Academic Planner | Akiyode Kaosara</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Akiyode <span>Kaosara</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
+
+<h1 class="page-title">Academic Planner</h1>
+<p class="lead">A simple place to keep track of learning activities and study tasks.</p>
+<section class="planner-panel">
+  <h2>My Tasks</h2>
+  <form class="add-task" id="plannerForm">
+    <input type="text" id="taskInput" placeholder="Enter a study task..." aria-label="Study task">
+    <button class="button" type="submit">Add Task</button>
+  </form>
+  <p class="form-note">Tasks are saved in this browser using local storage.</p>
+  <p id="emptyText">No tasks yet. Add a task above to get started.</p>
+  <ul class="task-list" id="taskList"></ul>
+</section>
+
+</main>
+<footer>
+  <p> &copy; <span id="year"></span> Cybersecurity Student | Miva Open University</p>
+</footer>
+</body>
+</html>
